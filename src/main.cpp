@@ -1,5 +1,5 @@
 #include "raylib.h"
-#include "Game/allGameFiles.h"
+#include "Game/allGameFiles.hpp"
 #include <iostream>
 
 
