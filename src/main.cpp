@@ -1,7 +1,6 @@
 #include "raylib.h"
-#include "Game/allGameFiles.hpp"
+#include "Game/Game.hpp"
 #include <iostream>
-
 
 int main(){
     Game game("fren");
