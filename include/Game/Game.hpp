@@ -2,6 +2,8 @@
 
 #include "raylib.h"
 #include <string>
+#include <vector>
+#include "Game/Entity.hpp"
 
 class Game {
     public:
@@ -14,7 +16,12 @@ class Game {
         
         bool ShouldClose();
 
+        void AddEntity(Entity* entity);
+
         void Draw() const;
         void Update();
         void Tick();
+
+    private:
+        Entity objs[];
 };
