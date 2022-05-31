@@ -1,4 +1,5 @@
-#include "Game/allGameFiles.hpp"
+#include "Game/Game.hpp"
+#include "Game/settings.hpp"
 #include "raylib.h"
 #include <assert.h>
 
