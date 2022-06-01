@@ -1,6 +1,9 @@
 #pragma once
 
 #include <string>
+#include "Game/Settings.hpp"
+#include "raylib.h"
+#include <assert.h>
 
 class Game {
     public:

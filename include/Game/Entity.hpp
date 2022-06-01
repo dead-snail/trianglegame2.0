@@ -4,8 +4,10 @@ class Entity{
     public:
         Entity(v2f position);
 
-        void Update();
-        void Draw() const;
+        int id;
+
+        virtual void Update();
+        virtual void Draw() const;
     
     protected:
         v2f position;

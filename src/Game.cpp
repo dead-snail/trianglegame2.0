@@ -1,7 +1,4 @@
 #include "Game/Game.hpp"
-#include "Game/Settings.hpp"
-#include "raylib.h"
-#include <assert.h>
 
 Game::Game(std::string title)
 {
