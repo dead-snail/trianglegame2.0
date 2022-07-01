@@ -27,8 +27,7 @@ void Game::Update()
 
 void Game::Draw() const {
     ClearBackground(RAYWHITE);
-    DrawText("Hello Raylib!", Settings::screenWidth / 2 - MeasureText("Hello Raylib!", 50) / 2, Settings::screenHeight / 2 - 50, 50, LIGHTGRAY);
-    DrawFPS(10, 10);
+    Camera2D camera;
 } 
 
 void Game::Tick()

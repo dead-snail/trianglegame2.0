@@ -17,6 +17,6 @@ class Game {
         void Update();
         void Draw() const;
         void Tick();
+    private:
 
-    
 };

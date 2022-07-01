@@ -1,14 +1,9 @@
+#pragma once
+
 #include "v2f.hpp"
+#include "raylib.h"
 
-class Entity{
+class Entity {
     public:
-        Entity(v2f position);
-
-        int id;
-
-        virtual void Update();
-        virtual void Draw() const;
-    
-    protected:
-        v2f position;
+        Entity(v2f position, Texture2D texture);
 };
