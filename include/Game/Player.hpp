@@ -5,6 +5,7 @@
 
 class Player : public Object {
     public: 
+    
         Player();
         virtual void Update();
         virtual void Draw();
