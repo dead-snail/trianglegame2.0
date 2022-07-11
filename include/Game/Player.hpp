@@ -6,7 +6,7 @@
 class Player : public Object {
     public: 
 
-        Player(Image playerImage, v2f position);
+        Player(std::string imagePath);
         virtual void Update();
         virtual void Draw();
         ~Player(void);

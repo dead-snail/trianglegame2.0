@@ -3,6 +3,7 @@
 #include <string>
 #include "Game/Settings.hpp"
 #include "Game/Player.hpp"
+#include "Game/BadPractice.hpp"
 #include <assert.h>
 
 class Game {
@@ -18,5 +19,5 @@ class Game {
         void Draw() const;
         void Tick();
     private:
-        
+        Player player{"../assets/notafurry.jpg"};
 };
