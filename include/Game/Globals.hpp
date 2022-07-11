@@ -1,6 +1,7 @@
 //bad practice lmao
 
-#include "Entity.hpp"
+#include "Game/Object.hpp"
 #include <list>
 
-std::list<Entity> entityList;
+//all the gameobjects
+extern std::list<Object*> objectList;
