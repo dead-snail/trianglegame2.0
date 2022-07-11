@@ -5,8 +5,8 @@
 
 class Player : public Object {
     public: 
-    
-        Player();
+
+        Player(Image playerImage, v2f position);
         virtual void Update();
         virtual void Draw();
         ~Player(void);

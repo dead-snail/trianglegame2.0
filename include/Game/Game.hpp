@@ -2,7 +2,7 @@
 
 #include <string>
 #include "Game/Settings.hpp"
-#include "raylib.h"
+#include "Game/Player.hpp"
 #include <assert.h>
 
 class Game {
