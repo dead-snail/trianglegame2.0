@@ -1,3 +1,3 @@
-#include "Game/Globals.hpp"
+#include "Game/BadPractice.hpp"
 
 std::list<Object*> objectList; 
