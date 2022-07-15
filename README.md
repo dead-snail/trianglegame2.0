@@ -6,7 +6,8 @@ ___
 
 ## Building
 
-- install MinGW on Windows
+- Clone the project
+- Install [MinGW](https://www.mingw-w64.org/downloads/ 'Download MinGW') on Windows (haven't tested on other platforms)
 - Navigate to the build folder of the project
 - Run `mingw32-make` and the executable will be created in the build folder 
 
