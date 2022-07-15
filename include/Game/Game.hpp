@@ -19,5 +19,5 @@ class Game {
         void Draw() const;
         void Tick();
     private:
-        Player player{"../assets/notafurry.jpg"};
+        Player player;
 };

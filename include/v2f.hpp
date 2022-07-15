@@ -4,11 +4,7 @@ class v2f{
     public:
         v2f() = default;
         constexpr v2f(float x, float y) : x(x), y(y) {}
-        constexpr float GetX() const { return x; }
-        constexpr float GetY() const { return y; }
-        constexpr void SetX(float x) { this->x = x; }
-        constexpr void SetY(float y) { this->y = y; }
-
+        
         //equality
         constexpr bool operator==(const v2f& other) const {
             return x == other.x && y == other.y;
@@ -54,6 +50,6 @@ class v2f{
         }
 
 
-    private:
+    public:
         float x, y;
 };

@@ -6,7 +6,7 @@
 class Player : public Object {
     public: 
 
-        Player(std::string imagePath);
+        Player();
         virtual void Update();
         virtual void Draw();
         ~Player(void);
@@ -14,6 +14,6 @@ class Player : public Object {
     private: 
         v2f position;
         float speed;
-        Texture texture;
+        Texture2D texture;
 };
 

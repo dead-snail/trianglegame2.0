@@ -22,12 +22,16 @@ bool Game::ShouldClose()
 
 void Game::Update()
 {
-
+    for(Object* object : objectList){
+        object->Update();
+    }
 }
 
 void Game::Draw() const {
     ClearBackground(RAYWHITE);
-    Camera2D camera;
+    for(Object* object : objectList){
+        object->Draw();
+    }
 } 
 
 void Game::Tick()
