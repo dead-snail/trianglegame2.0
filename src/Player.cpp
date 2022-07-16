@@ -6,15 +6,10 @@
 Player::Player()
     :
     position({Settings::screenWidth/2, Settings::screenHeight/2}),
-    speed(-325)
+    speed(-325),
+    texture(LoadTexture("../assets/scarfy.png"))
 {
     objectList.push_back(this); // adds this to the list of entities to render
-
-    Image playerImage = LoadImage("../assets/ship.png");
-    ImageRotateCW(&playerImage);
-    texture = LoadTextureFromImage(playerImage);
-    texture.height *= 100;
-    texture.width *= 100;
 }
 
 void Player::Update(){
@@ -24,7 +19,8 @@ void Player::Update(){
 }
 
 void Player::Draw(){
-    DrawTexture(texture, position.x - texture.width / 2, position.y - texture.height / 2, WHITE);
+    DrawTexture(texture, 50, 50, BLACK);
+    DrawRectangle(position.x, position.y, 50, 50, RED);
 }
 
 Player::~Player(){
