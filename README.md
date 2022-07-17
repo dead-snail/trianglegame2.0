@@ -18,16 +18,12 @@ ___
 
 - Uses an entity system that i havent planned or tested (i cba to do either)
 > stores, updates, and renders all of the entities 
-
 - Auto-generates random "maze-like" levels
 > funny algorithms that i dont understand go brrr
-
 - enemies that shoot with different weapons
 > AR, pistol, sniper, etc.
-
 - Powerups and weapons from chests
 > ¯\\\_(ツ)_/¯
-
 - Insane difficulty curve
 > I despise people
 ___
