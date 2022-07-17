@@ -1,12 +1,21 @@
 #include "raylib.h"
-#include "Game/Game.hpp"
+#include "Game/Settings.hpp"
+
+using namespace Settings;
 
 int main(){
-    Game game("Trangle Game");
 
-    while(!game.ShouldClose()){
-        game.Tick();
+    InitWindow(WIDTH, HEIGHT, "Trangles");
+
+    while(!WindowShouldClose()){
+        BeginDrawing();
+
+        ClearBackground(RAYWHITE);
+
+        EndDrawing();
     }
+
+    CloseWindow();
 
     return 0;
 }

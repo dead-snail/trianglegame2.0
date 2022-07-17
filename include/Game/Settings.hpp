@@ -1,7 +1,7 @@
 #pragma once
 
 namespace Settings {
-    inline constexpr int screenWidth = 800;
-    inline constexpr int screenHeight = 450;
-    inline constexpr int targetFPS = 60;
+    inline constexpr int WIDTH = 800;
+    inline constexpr int HEIGHT = 450;
+    inline constexpr int FPS = 60;
 }
