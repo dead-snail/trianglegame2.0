@@ -13,6 +13,13 @@ ___
 
 ___
 
-## Creds
+## DISCLAIMER
+
+- all of this code came from my brain so will not function in 90% of cases and is probably VERY bad
+- do not copy for the safety of your own sanity
+- I am not legally responsible for any brain damage this project may cause you
+___
+
+## Credits
 
 - me: a student in immense sadness
