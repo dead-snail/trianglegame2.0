@@ -2,6 +2,7 @@
 # trianglegame2.0
 
 A clone of youtuber Dani's Triangle Game but made without a game engine.
+
 ___
 
 ## Building
@@ -11,21 +12,22 @@ ___
 - Navigate to the build folder of the project
 - Run `mingw32-make` and the executable will be created in the build folder 
 - This probably won't run in 90% of cases
-
+  
 ___
 
 ## Plans
 
 - Uses an entity system that i havent planned or tested (i cba to do either)
-> stores, updates, and renders all of the entities 
+    - stores, updates, and renders all of the entities 
 - Auto-generates random "maze-like" levels
-> funny algorithms that i dont understand go brrr
+    - funny algorithms that i dont understand go brrr
 - enemies that shoot with different weapons
-> AR, pistol, sniper, etc.
+    - AR, pistol, sniper, etc.
 - Powerups and weapons from chests
-> ¯\\\_(ツ)_/¯
+    - ¯\\\_(ツ)_/¯
 - Insane difficulty curve
-> I despise people
+    - I despise people
+
 ___
 
 ## DISCLAIMER
