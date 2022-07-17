@@ -16,7 +16,7 @@ ___
 
 ## Plans
 
-> Uses an entity system that i havent planned or tested (i cba to do either)
+-. Uses an entity system that i havent planned or tested (i cba to do either)
 >> stores, updates, and renders all of the entities 
 
 ___
