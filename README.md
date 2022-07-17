@@ -35,8 +35,16 @@ ___
 - all of this code came from my brain so will not function in 90% of cases and is probably VERY bad
 - do not copy for the safety of your own sanity
 - I am not legally responsible for any brain damage this project may cause you
+  
 ___
 
 ## Credits
 
 - me: a student in immense sadness
+
+___
+
+## Depression Counter
+
+How many times I accidentally used an American Keyboard because my keyboard can't type backslashes so i had to switch but forgot to switch back AAAAAAAAAAA:
+> 1
