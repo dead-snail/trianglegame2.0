@@ -10,6 +10,7 @@ ___
 - Install [MinGW](https://www.mingw-w64.org/downloads/ 'Download MinGW') on Windows (haven't tested on other platforms)
 - Navigate to the build folder of the project
 - Run `mingw32-make` and the executable will be created in the build folder 
+- This probably won't run in 90% of cases
 
 ___
 
