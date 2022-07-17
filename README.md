@@ -14,6 +14,13 @@ ___
 
 ___
 
+## Plans
+
+> Uses an entity system that i havent planned or tested (i cba to do either)
+>> stores, updates, and renders all of the entities 
+
+___
+
 ## DISCLAIMER
 
 - all of this code came from my brain so will not function in 90% of cases and is probably VERY bad
