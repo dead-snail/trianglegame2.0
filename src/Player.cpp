@@ -1,5 +1,5 @@
 #include "Game/Player.hpp"
-#include "Settings.hpp"
+#include "Game/Settings.hpp"
 #include <iostream>
 
 Player::Player(EntitySystem* es)
@@ -11,11 +11,10 @@ Player::Player(EntitySystem* es)
     this->es->entityList.push_back(this);
 
     texture = LoadTexture("../assets/ship.png");
-    texture.height *= Settings::HEIGHT / 2;
-    texture.width *= Settings::WIDTH / 2;
 }
 
 void Player::Update(){
+    
     //Input
     if ((IsKeyDown(KEY_W) || IsKeyDown(KEY_UP))) 
     {
@@ -32,7 +31,7 @@ void Player::Update(){
 }
 
 void Player::Render(){
-    DrawTexture(texture, position.x,position.y, WHITE);
+    DrawTexture(texture, )
 }
 
 Player::~Player(){
