@@ -1,5 +1,6 @@
 #include "raylib.h"
 #include "Game/Settings.hpp"
+#include "Game/Player.hpp"
 #include "Systems/EntitySystem.hpp"
 
 #include <iostream>
@@ -12,11 +13,19 @@ int main(){
 
     EntitySystem entitySys;
 
+    //scene stuff
+    Player player{&entitySys};
+
     //main game loop - if this needs explaining, something is clearly wrong
     while(!WindowShouldClose()){
+        entitySys.UpdateEntities();
+        
         BeginDrawing();
 
         ClearBackground(RAYWHITE);
+        entitySys.RenderEntities();
+
+        DrawFPS(10,10);
 
         EndDrawing();
     }

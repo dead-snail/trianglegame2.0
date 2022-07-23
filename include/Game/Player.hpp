@@ -6,12 +6,15 @@
 
 class Player : public Entity{
     public:
-        Player(EntitySystem es);
-        void Update();
-        void Render();
+        Player(EntitySystem* es);
+        virtual void Update();
+        virtual void Render();
         ~Player(void);
 
     private:
+        //systems 
+        EntitySystem* es;
+
         v2f position;
         float speed;
         Texture texture;

@@ -1,7 +1,7 @@
 #include "Systems/EntitySystem.hpp"
 
 EntitySystem::EntitySystem(){
-    
+
 }
 
 void EntitySystem::UpdateEntities(){
