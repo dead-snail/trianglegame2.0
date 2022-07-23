@@ -23,7 +23,11 @@ int main(){
         
         BeginDrawing();
 
-        ClearBackground(RAYWHITE);
+        ClearBackground(Color{16, 0, 50, 255});
+
+        DrawLine(Settings::WIDTH / 2, 0, Settings::WIDTH / 2, Settings::HEIGHT, WHITE);
+        DrawLine(0, Settings::HEIGHT / 2, Settings::WIDTH, Settings::HEIGHT / 2, WHITE);
+
         //draws all the entities
         entitySys.RenderEntities();
 

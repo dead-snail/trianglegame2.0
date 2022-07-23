@@ -49,4 +49,4 @@ ___
 ## Depression Counter
 
 How many times I accidentally used an American Keyboard because my keyboard can't type backslashes so i had to switch but forgot to switch back AAAAAAAAAAA:
-> 8
+> 10
