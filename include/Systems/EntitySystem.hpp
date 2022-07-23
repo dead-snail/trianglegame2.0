@@ -11,7 +11,8 @@ class EntitySystem{
         ~EntitySystem();
 
         void UpdateEntities();
+        void RenderEntities();
 
     private:
-        std::list<Entity> EntityList;
+        std::list<Entity*> entityList;
 };
