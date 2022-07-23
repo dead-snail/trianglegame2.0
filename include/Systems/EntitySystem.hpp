@@ -1,6 +1,6 @@
 #pragma once
 
-#include "Entity.hpp"
+#include "Game/Entity.hpp"
 #include <list>
 
 class EntitySystem{
@@ -13,6 +13,6 @@ class EntitySystem{
         void UpdateEntities();
         void RenderEntities();
 
-    private:
+    public:
         std::list<Entity*> entityList;
 };
