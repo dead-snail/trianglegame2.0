@@ -18,11 +18,13 @@ int main(){
 
     //main game loop - if this needs explaining, something is clearly wrong
     while(!WindowShouldClose()){
+        //updates all the entities
         entitySys.UpdateEntities();
         
         BeginDrawing();
 
         ClearBackground(RAYWHITE);
+        //draws all the entities
         entitySys.RenderEntities();
 
         DrawFPS(10,10);

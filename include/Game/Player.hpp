@@ -4,6 +4,7 @@
 #include "Game/Entity.hpp"
 #include "Systems/EntitySystem.hpp"
 
+//class for the player (only needed for the game scene) 
 class Player : public Entity{
     public:
         Player(EntitySystem* es);
@@ -15,6 +16,7 @@ class Player : public Entity{
         //systems 
         EntitySystem* es;
 
+        //properties
         v2f position;
         float speed;
         Texture texture;

@@ -17,6 +17,8 @@ ___
 
 ## Plans
 
+- Scene management system (don't copy it hurt to write and I don't even understand it)
+    - Switches scenes when I tell it to, IDK - I'm a bad person
 - Uses an entity system that i havent planned or tested (i cba to do either)
     - stores, updates, and renders all of the entities 
 - Auto-generates random "maze-like" levels
@@ -47,4 +49,4 @@ ___
 ## Depression Counter
 
 How many times I accidentally used an American Keyboard because my keyboard can't type backslashes so i had to switch but forgot to switch back AAAAAAAAAAA:
-> 7
+> 8
