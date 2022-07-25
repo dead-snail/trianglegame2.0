@@ -1,10 +1,20 @@
 #pragma once
 
+#include "math.h"
+#include "raylib.h"
+
 class v2f{
     public:
         v2f() = default;
         constexpr v2f(float x, float y) : x(x), y(y) {}
         
+        constexpr Vector2 ToVector2(){
+            Vector2 v{this->x,this->y};
+            return v;
+        }
+        constexpr float GetLength(){
+            return sqrtf(x*x+y*y); 
+        }
         //equality
         constexpr bool operator==(const v2f& other) const {
             return x == other.x && y == other.y;
